@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <title>Aide de Coban</title>
+  <meta name="generator" content="Bluefish 1.0.7"/>
+  <link href="Style1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1><a name="haut" id="haut"></a><span style="color:#0000ff">Aide de
+Coban</span></h1>
+
+<p>Coban est un logiciel pour les <strong>professionnels de
+l'électricité</strong>.<br />
+Le principal objectif de ce logiciel est de rendre le choix de matériel plus
+rapide, principalement lors de la rédaction d&rsquo;un devis.<br />
+</p>
+
+<p>Son fonctionnement se veut le plus <strong>simple</strong> et le plus
+<strong>intuitif</strong> possible pour rester accessible à tous, même aux
+personnes ne maîtrisant pas beaucoup l'outil informatique.</p>
+
+<p><strong>Pour garder toute sa simplicité d'utilisation, Coban n'est pas conçu
+comme un logiciel de CALCUL, mais comme un logiciel d'ESTIMATION rapide et
+convivial.</strong></p>
+
+<p>Coban ne doit pas être utilisé pour réaliser des études précises où une
+garantie de résultat est demandée.</p>
+
+<p></p>
+
+<p></p>
+
+<p>Coban se compose d'un lanceur principal permettant d'utiliser les différents
+modules de calcul.</p>
+
+<p><br />
+</p>
+
+<h1><span style="color:#0000ff">Sommaire :</span></h1>
+<ul>
+  <li><a href="#register">Enregistrer votre version de Coban</a></li>
+</ul>
+<ul>
+  <li><a href="#lanceur">Fenêtre principale de Coban</a></li>
+</ul>
+<ul>
+  <li>Électricité : 
+    <ul>
+      <li><a href="#section">Section de câble</a></li>
+      <li><a href="#chute">Chute de tension</a></li>
+    </ul>
+  </li>
+  <li>Conversions : 
+    <ul>
+      <li><a href="#conv">Conversions</a></li>
+      <li><a href="#awg">Conversions AWG</a></li>
+    </ul>
+  </li>
+  <li>Sono / Vidéo : 
+    <ul>
+      <li><a href="#vision">Champs de vision</a></li>
+      <li><a href="#sono">Sonorisation</a></li>
+    </ul>
+  </li>
+  <li>Bilans thermiques : 
+    <ul>
+      <li><a href="#chauff_dom">Chauffage domestique</a></li>
+      <li><a href="#chauff_ter">Chauffage tertiaire ou industriel</a></li>
+      <li><a href="#clim">Climatisation</a></li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li><a href="#eclairage">Éclairage intérieur</a></li>
+</ul>
+<ul>
+  <li>Menu Aide > Préférences :
+  <ul>
+     <li><a href="#sauvegarde">Choisir un répertoire de sauvegarde</a></li>
+     <li><a href="#maj">Activer les mises à jours</a></li>
+</ul>
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span style="color:#0000ff"><br />
+</span></p>
+
+<h2><span style="color:#0000ff">Enregistrer votre version de Coban :</span></h2>
+
+<p>Vous pouvez obtenir le code de déblocage sur le site <a target="_blank"
+href="http://www.sg-logiciels.fr/index.php?page=boutique"><strong>www.sg-logiciels.fr</strong></a>.</p>
+
+<p>Une fois votre code obtenu, il suffit de le rentrer grâce au menu "<em>Aide
+&gt; Enregistrement</em>"</p>
+
+<p><img alt="enregistrement" src="images/enregistrement.PNG" /></p>
+
+<p></p>
+
+<p>Le déblocage sera pris en compte au prochain démarrage de Coban.</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<p></p>
+
+<h2><span style="color:#0000ff"><a name="lanceur"></a>Lanceur principal
+:</span></h2>
+
+<p><img alt="Coban" src="images/lanceur.PNG" /></p>
+
+<p>Cette fenêtre permet de regrouper et de lancer tout les modules de calcul de
+Coban.</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><a name="section"></a><span style="color:#0000ff">Module "Section de câble"
+:</span></h2>
+
+<p><img alt="section de cable" src="images/section.PNG" /></p>
+
+<p>Ce module sert à définir la <strong>section minimale d'un câble</strong> en
+fonction :</p>
+<ul>
+  <li>du calibre du disjoncteur de protection</li>
+  <li>du type de circuit (monophasé ou triphasé)</li>
+  <li>de sa nature (type de câble et âme du conducteur)</li>
+  <li>son mode de pose</li>
+  <li>la température environnante (ambiante ou du sol)</li>
+</ul>
+
+<p>Le résultat obtenu est la section minimale du conducteur ainsi que
+l'intensité maximale admissible dans le câble.</p>
+
+<p><strong>Attention : Ne pas oublier de vérifier la chute de tension à
+l'extrémité du câble</strong> <em>(voir module "<a href="#chute">Chute de
+tension</a>)</em></p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><span style="color:#0000ff"><a name="chute"></a>Module "Chute de tension"
+:</span></h2>
+
+<p><img alt="chute de tension" src="images/chute.PNG" /></p>
+
+<p>Une fois la <a href="#section">section du câble</a> déterminée, vous pouvez
+vérifier la chute de tension à l'extrémité de celui-ci.</p>
+
+<table border="1">
+  <caption><strong>Aide au choix</strong></caption>
+  <col />
+  <col />
+  <col />
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Éclairage</td>
+      <td>Autres usages</td>
+    </tr>
+    <tr>
+      <td><p>Alimentation entre disjoncteur de branchement <br />
+        et tableau de répartition</p>
+      </td>
+      <td colspan="2">2 %</td>
+    </tr>
+    <tr>
+      <td><p>Installations alimentées directement à partir d'un réseau <br />
+        de distribution publique basse tension</p>
+      </td>
+      <td>3 %</td>
+      <td>5 %</td>
+    </tr>
+    <tr>
+      <td>Installations alimentées à partir d'un poste HT/BT</td>
+      <td>6 %</td>
+      <td>8 %</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><a name="conv"></a><span style="color:#0000ff">Module "Conversions
+Électriques" :</span></h2>
+
+<p><img alt="conversions" src="images/conversion.PNG" /></p>
+
+<p>Le module Conversions permet de convertir la valeur entrée en :  <span
+style="font-style: italic;"><br />
+Intensité (A), Puissance (W), Chevaux (CV) et Horse Power (HP)</span> </p>
+
+<p>Les formules utilisées sont : </p>
+<ul>
+  <li>P=U.I en 240V monophasé</li>
+  <li>P=U.I.&radic;3.cos(&phi;) (avec cos(&phi;)=0,8 en 380V triphasé)<a
+    name="L698" id="L698"></a></li>
+  <li>1 CV = 735,5 Watts</li>
+  <li>1 HP = 745,7 Watts</li>
+</ul>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><a name="awg"></a><span style="color:#0000ff">Module "Conversions
+AWG"</span></h2>
+
+<p><img alt="module &quot;awg&quot;" src="images/awg.PNG" /></p>
+
+<p>Ce module permet de convertir une section AWG (<em>American Wire Gauge</em>)
+en section en mm<sup>2</sup> et diamètre en mm.</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><span style="color:#0000ff"><a name="vision"></a>Champs de
+vision</span></h2>
+
+<p><img alt="video" src="images/video.PNG" /></p>
+
+<p>Ce module permet de définir la focale idéale en fonction du champ de vision
+souhaité et de la distance de la caméra à la cible.<br />
+Inversement, il permet de définir le champ de vision en fonction de l'objectif
+de la caméra et de la distance à la cible.<br />
+</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><a name="sono"></a><span style="color:#0000ff">Sonorisation</span></h2>
+
+<p><img alt="sonorisation" src="images/sono.PNG" /></p>
+
+<p>Ce module permet d'évaluer rapidement le nombre de "haut parleurs" et la
+puissance de réglage de chacun d'eux pour une pièce, en fonction du niveau
+sonore ambiant et du type de message à diffuser.</p>
+
+<p>Le calcul est fait pour des HP de type "encastré de plafond" (à diffusion
+verticale).</p>
+
+<h3>Choix du type de diffusion :</h3>
+<ul>
+  <li>Minimale : + 10db par rapport au niveau sonore ambiant (pièces
+  "calmes")</li>
+  <li>Optimale : + 15db par rapport au niveau sonore ambiant (pièces
+    "classiques", bureaux, halls...)</li>
+  <li>Excellente : + 25db par rapport au niveau sonore ambiant (pièces
+    "bruyantes", restaurants....)</li>
+</ul>
+
+<h3>Niveaux sonores (à  titre indicatif) :</h3>
+<ul>
+  <li>Bureaux : 35 à 55db</li>
+  <li>Salles d'ordinateurs : 55 à 65db</li>
+  <li>Salles de réunion : 40 à 55db</li>
+  <li>Restaurants : 45 à 60db</li>
+  <li>Magasin : 40 à 50db</li>
+  <li>Usine ou atelier : 50 à 75db</li>
+</ul>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><span style="color:#0000ff"><a name="chauff_dom"></a><a name="L685"
+id="L685"></a>Chauffage domestique</span></h2>
+
+<p><img alt="chauffage" src="images/thermique1.PNG" /></p>
+
+<p>Ce module permet d'estimer rapidement la puissance nécessaire de chauffage à
+installer dans une pièce d'habitation.</p>
+<p><b><i><u>Astuce</u></i></b> :<br />
+Vous pouvez entrer directement dans le champ de saisie "surface" la longueur et la largeur de votre pièce (en mètres).<br />
+Par exemple "7,23*5.12" vous permettra de calculer la puissance nécessaire pour une pièce de 37m².</p>
+
+<h3>Valeurs par défaut :</h3>
+<ul>
+  <li>33 W/m<sup>3</sup> pour un chauffage par "radiateur" (type radiants, à
+    fluide caloporteur, accumulation, etc.)</li>
+  <li>85 W/m<sup>2</sup> pour un chauffage par câble chauffant direct.</li>
+  <li>80 W/m<sup>3</sup> pour un chauffage par accumulateur.</li>
+</ul>
+
+<p>Ces valeurs sont modifiables grace au menu "Préférences -&gt; Réglages".</p>
+
+<h3>Cas particuliers :</h3>
+
+<p>Calcul de puissance pour des <span style="font-style: italic;">câbles
+chauffant :</span></p>
+<ul>
+  <li><strong>Si la case "salle de bain" n'est pas cochée</strong>, la surface
+    prise en compte pour le calcul est la surface entrée moins 15%.</li>
+  <li><strong>Pour les cuisines</strong> : Ne pas oublier d'enlever de la
+    surface de la pièce à calculer les surfaces occupées par les meubles
+    intégrés le cas échéant.</li>
+  <li><strong>Si la case "salle de bain" est cochée</strong>, la surface prise
+    en compte est la surface entrée.<br />
+    <strong>Attention !</strong> <span style="font-style: italic;">Ne pas
+    oublier d'enlever de la surface de la salle de bain les surfaces occupées
+    par la baignoire et/ou le bac à douche.</span></li>
+</ul>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><a name="chauff_ter"></a><span style="color:#0000ff">Chauffage tertiaire et
+industriel</span></h2>
+
+<p><img alt="chauffage tertiaire et industriel" src="images/thermique2.PNG"
+/></p>
+
+<p>Ce module permet d'estimer la puissance nécessaire pour chauffer un local de
+type "bureau" ou "atelier".</p>
+
+<p>L'estimation est réalisée en fonction de l'emplacement du local, de son
+exposition, de son isolation et du nombre de personnes occupant celui-ci.</p>
+
+<p>Vous devez impérativement avant de lancer le calcul choisir la zone
+géographique ou se situe ce local.<br />
+Le bouton "Calculer" se colore alors en fonction de la zone choisie.</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><a name="clim"></a><span style="color:#0000ff">Bilan thermique de
+climatisation</span></h2>
+
+<p><img alt="climatisation" src="images/thermique3.PNG" /></p>
+
+<p><em><strong>Attention : Ne pas utiliser ce module si des garanties précises
+de température ou d'hygrométrie sont demandées.</strong></em></p>
+
+<p><em>Les heures à retenir pour entrer les valeurs de calcul du bilan
+thermique sont :</em></p>
+<ul>
+  <li><em><strong>14h à 18h</strong> (heure légale) pour toutes les
+    orientations, sauf :</em></li>
+  <li><em><strong>12h à 16h</strong> pour les orientations Nord-Est et
+  Est</em></li>
+</ul>
+
+<p></p>
+
+<h3>APPORTS INTERNES :</h3>
+<ul>
+  <li><strong>Nombre d'occupants</strong> : ne compter que le nombre de
+    personnes ocupant le local aux heures les plus chaudes de la journée.</li>
+  <li><strong>Éclairage</strong>: Puissance en Watts des appareils d'éclairage
+    utilisés aux heures les plus chaudes de la journée.</li>
+  <li><strong>Matériel bureautique</strong> : Puissance en Watts et durée
+    d'utilisation des appareils de bureautique (type ordinateurs, écrans,
+    imprimantes, photocopieuses...) aux heures les plus chaudes de la
+  journée.</li>
+  <li><strong>Appareils "chauds"</strong> : Puissance en Watts et durée
+    d'utilisation des appareils émetteurs de forte chaleur (four, moteur...)
+    aux heures les plus chaudes de la journée.</li>
+  <li><strong>Appareils "froids"</strong> : Puissance en Watts et durée
+    d'utilisation des appareils producteurs de froid (réfrigérateurs,
+    congélateurs, cave à vin...) aux heures les plus chaudes de la journée.</li>
+</ul>
+
+<h3>SURFACES VITRÉES :</h3>
+<ul>
+  <li><strong>Total des surfaces vitrées :</strong> Surface en m² de l'ensemble
+    des surfaces vitrées de la pièce, y compris celles les plus exposées aux
+    heures les plus chaudes de la journée.</li>
+  <li><strong>Surface vitrée la plus exposée :</strong> Surface en m² des
+    vitres exposées aux eures les plus chaudes de la journée.</li>
+</ul>
+
+<h3>SURFACES HORIZONTALES :</h3>
+<ul>
+  <li><strong>Plancher</strong> : Surface en m² du plancher du local <em>si
+    celui-ci se trouve au-dessus d'un autre local</em>.</li>
+  <li><strong>Plafond</strong> : Surface en m² du plafond, type de plafond et
+    solation de celui-ci.</li>
+</ul>
+
+<h3>MURS ET CLOISONS :</h3>
+<ul>
+  <li><strong>Murs à l'ombre</strong> et <strong>Murs au soleil</strong> : Il
+    faut indiquer les surfaces (en m²) des murs ayant l'exposition la plus
+    défavorable aux heures les plus chaudes de la journée, ainsi que
+    l'épaisseur de l'isolant de ceux-ci.</li>
+  <li><strong>Cloisons</strong> : surface en m² des cloisons de la pièce.</li>
+</ul>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><span style="color:#0000ff"><a name="eclairage"></a>Éclairage
+intérieur</span></h2>
+
+<p><img alt="Éclairage" src="images/eclairage.PNG" /></p>
+
+<p>Ce module permet d'estimer le nombre minimal de luminaire à implanter dans
+un local en fonction du niveau d'éclairement recherché.</p>
+
+<h3>Sources :</h3>
+
+<p>Une liste de sources est fournie avec ce module, mais vous êtes libre de
+modifier cette liste et d'y ajouter vos propres sources.<br />
+Bien sûr, vous pouvez également supprimer les sources ou réinitialiser la liste
+avec les sources par défaut fournies avec Coban.</p>
+
+<h3>Préférences :</h3>
+
+<p>Vous pouvez régler les paramètres suivants :</p>
+<ul>
+  <li>Facteur compensateur de dépréciation : réglable de 1 à 2 en fonction du
+    taux d'empoussièrement du local (1 par défaut).</li>
+  <li>Facteur de réflexion du plafond, des murs et du plan utile (7, 3, 1 par
+    défaut).</li>
+</ul>
+
+<h3>Interdistance :</h3>
+
+<p>L'interdistance indiquée lors des résultats de calcul est la distance entre
+le centre de chaque appareil.</p>
+
+<h3>Rendements-type des principaux luminaires (à titre indicatif) : </h3>
+
+<h4>Luminaires type "industriels" </h4>
+<ul>
+  <li>Réglette fluo : 55 à 60%</li>
+  <li>Réflecteur industriel pour tubes fluorescents (réflecteur blanc) : 80%,
+    classe E </li>
+  <li>Suspension industrielle pour lampe à décharge à réflecteur extensif :
+    70%, classe D</li>
+  <li>Suspension industrielle pour lampe à décharge à réflecteur semi-extensif
+    : 70%, classe C</li>
+  <li>Réglette étanche pour tubes fluorescents : 60%, classe G</li>
+</ul>
+
+<h4>Luminaires type "Bureau"</h4>
+<ul>
+  <li>À grille "standard" : 70%, classe C</li>
+  <li>À grille "basse luminance" : 65%, classe B</li>
+  <li>À grille "Très basse luminance" : 60%, classe B</li>
+  <li>À très haut rendement : 90%, classe A</li>
+  <li>Mixte type Direct/Indirect : 75%, classe C</li>
+</ul>
+
+<h4>Indirect : </h4>
+<ul>
+  <li>65%, classe C</li>
+</ul>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<h2><span style="color:#0000ff"><a name="sauvegarde"></a>Choisir un répertoire de sauvegarde
+:</span></h2>
+
+<p>Par défaut, Coban choisit lui-même son répertoire de sauvegarde.</p>
+
+<p>Lors de l'utilisation de répertoires utilisateurs personnalisés (par exemple
+sur serveur distant), il peut être nécessaire de spécifier le chemin de
+sauvegarde de Coban manuellement.</p>
+
+<p>Dans ce cas, utilisez le menu "<em>Aide &gt; Préférences &gt; Répertoire de
+sauvegarde</em>" et choisissez le répertoire approprié.</p>
+
+<p><img alt="répertoire de sauvegarde" src="images/sauvegarde.PNG" /></p>
+
+<p>Les modifications seront prises en compte au prochain démarrage de Coban.</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+<p></p>
+
+<h2><span style="color:#0000ff"><a name="maj"></a>Activer les mises à jours :</span></h2>
+
+<p>Par défaut, la notification automatique des mises à jour est activée.</p>
+
+<p>Pour changer ce paramètre, allez dans le menu "Aide > Préférences" et cochez ou décochez le menu "Prévenir des mises à jour".</p>
+
+<p><img alt="répertoire de sauvegarde" src="images/maj.png" /></p>
+
+<p>Les modifications seront prises en compte au prochain démarrage de Coban.</p>
+
+<p style="text-align:right;margin-left:auto;margin-right:0;"><a href="#haut">^
+Retour au menu</a></p>
+
+</body>
+</html>
